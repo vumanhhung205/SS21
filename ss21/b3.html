@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let number = +prompt("Nhập vào một số từ 2 đến 8:");
+    if (!isNaN(number) && number >= 2 && number <= 8) {
+      let thuTrongTuan;
+      switch (number) {
+          case 2:
+              thuTrongTuan = "Monday";
+              break;
+          case 3:
+              thuTrongTuan = "Tuesday";
+              break;
+          case 4:
+              thuTrongTuan = "Wednesday";
+              break;
+          case 5:
+              thuTrongTuan = "Thursday";
+              break;
+          case 6:
+              thuTrongTuan = "Friday";
+              break;
+          case 7:
+              thuTrongTuan = "Saturday";
+              break;
+          case 8:
+              thuTrongTuan = "Sunday";
+              break;
+      }
+      console.log(thuTrongTuan)
+  } else {
+      console.log("Số nhập vào không hợp lệ. Hãy nhập số từ 2 đến 8.");
+  }
+  
+</script>
+  </body>
+</html>

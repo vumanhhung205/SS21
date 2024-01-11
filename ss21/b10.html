@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<body>
+    <!-- vidu if/else -->
+    <script>
+        let age = +prompt('nhập tuổi của bạn:')
+   
+        if (!isNaN(age)) {
+            console.log('bạn '+ age+ '  tuổi')
+        }else{
+            console.log('không hợp lệ')
+        }
+    </script>
+    <!-- vidi swicht case -->
+    <script>
+        let number = +prompt("Nhập vào một số từ 2 đến 8:");
+      if (!isNaN(number) && number >= 2 && number <= 8) {
+        let thuTrongTuan;
+        switch (number) {
+            case 2:
+                thuTrongTuan = "Monday";
+                break;
+            case 3:
+                thuTrongTuan = "Tuesday";
+                break;
+            case 4:
+                thuTrongTuan = "Wednesday";
+                break;
+            case 5:
+                thuTrongTuan = "Thursday";
+                break;
+            case 6:
+                thuTrongTuan = "Friday";
+                break;
+            case 7:
+                thuTrongTuan = "Saturday";
+                break;
+            case 8:
+                thuTrongTuan = "Sunday";
+                break;
+        }
+        console.log(thuTrongTuan)
+    } else {
+        console.log("Số nhập vào không hợp lệ. Hãy nhập số từ 2 đến 8.");
+    }
+    
+  </script>
+</body>
+</html>
+
+<!-- 
+                 if                                                 
+    -Có thể sử dụng để so sánh lớn hơn, nhỏ hơn,..   
+    -Mỗi câu lệnh if có một biểu thức điều kiện, với 
+     giá trị trả về là true hoặc false               
+    -Biểu thức điều kiện cần trả về giá trị kiểu      
+    boolean                                          
+    -Chỉ có một khối lệnh được thực thi nếu điều    
+
+
+                swicht
+    -Chỉ có thể sử dụng để so sánh bằng, hoặc khác nhau
+    -Tất cả các trường hợp (case) đều so sánh với giá trị của biểu thức điều kiện duy nhất
+    -Biểu thức điều kiện cần trả về giá trị là kiểu byte, short, char, int hoặc 
+     -Nếu điều kiện đúng mà không có câu lệnh break thì tất cả các khối lệnh ở phía sau cũng được thực thi      
+    
+ -->

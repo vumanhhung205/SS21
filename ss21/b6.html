@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<body>
+    <script>
+        let toan = +prompt('nhập điểm toán:');
+        let van = +prompt('nhập điểm văn :');
+        let anh = +prompt('nhập điểm anh :');
+
+        let dtb = (toan + van +anh)/3;
+
+        if (dtb >=8 && dtb <=10){
+            console.log('xep loai gioi');
+        }if (dtb >=6.5 && dtb <=7.9) {
+            console.log('xep loai kha');
+        }if (dtb >=5 && dtb <=6.4) {
+            console.log('xep loai trung binh');
+        }if (dtb<5) {
+            console.log('xep loai yeu');
+        }
+        
+   
+        
+        
+    </script>
+</body>
+</html>
